@@ -5,7 +5,7 @@ if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").match
     sidebarToggleDarkmode.classList.add('active-toggle');
     headerToggleDarkmode.classList.add('active-toggle');
     document.body.classList.add('dark');
-} else {
+} else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
     sidebarToggleDarkmode.classList.remove('active-toggle');
     headerToggleDarkmode.classList.remove('active-toggle');
     document.body.classList.remove('dark');
