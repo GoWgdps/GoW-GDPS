@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./../../css/reset.css">
+    <link rel="stylesheet" href="./../../css/header.css">
+    <link rel="stylesheet" href="./../../css/wrapper.css">
+    <link rel="stylesheet" href="./../../css/list.css">
+    <link rel="stylesheet" href="./../../css/footer.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" href="./../../assets/gow_gdps-site_logo.ico" type="image/x-icon">
+    
+    <title>GoW GDPS | Платформер лист</title>
+</head>
+<body>
+
+  <div class="bg-wave">
+    <div class="wave1-black active-wave"></div>
+    <div class="wave2-black active-wave"></div>
+    <div class="wave3-black active-wave"></div>
+    <div class="wave1-white"></div>
+    <div class="wave2-white"></div>
+    <div class="wave3-white"></div>
+  </div>
+    
+    <header class="header">
+        
+        <h1 class="logo">GoW GDPS | Платформер лист</h1>
+        <div class="header-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <nav class="header-navbar">
+            
+            <a href="./../../index.html#home">Главная</a>
+            <a href="./../../index.html#about">О нас</a>
+            <a class="btnPopup">Списки</a>
+            
+            <!-- <a href="#" class="login">Войти</a> -->
+            
+            <div class="header-toggle-darkmode" title="Включить/Выключить темный режим">
+                <i class="bx bx-sun icon icon-sun"></i>
+                <i class="bx bx-moon icon icon-moon"></i>
+            </div>
+            
+        </nav>
+        
+    </header>
+    
+    <div class="sidebar">
+        
+        <div class="logo-nav-box">
+            
+            <h1 class="logo">GoW GDPS</h1>
+        
+            <nav class="side-navbar">
+            
+                <a href="./../../index.html#home" class="side-navbar__link">
+                    <i class='bx bxs-home icon-link'></i>
+                    Главная
+                </a>
+                <a href="./../../index.html#about" class="side-navbar__link">
+                    <i class='bx bxs-info-circle icon-link'></i>
+                    О нас
+                </a>
+                <a class="btnPopup side-navbar__link list-link">
+                    <i class='bx bx-list-ul icon-link'></i>
+                    Списки
+                    <i class='bx bx-chevron-down icon-list'></i>
+                </a>
+                <div class="sidebar-lists">
+                    <ul>
+                    
+                        <li class="sidebar-list__item">
+                            <a href="./demonlist.html">Демонлист</a>
+                        </li>
+                    
+                        <!-- <li class="sidebar-list__item">
+                            <a href="./list/demonlist.html">Челлендж лист</a>
+                        </li>
+                    
+                        <li class="sidebar-list__item">
+                            <a href="./list/demonlist.html">Импоссибл лист</a>
+                        </li> -->
+                    
+                        <li class="sidebar-list__item">
+                            <a href="./platformerlist.html">Платформер лист</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            
+            </nav>
+            
+        </div>
+        
+        <div class="toggle-login-box">
+            
+            <div class="sidebar-toggle-darkmode">
+                <i class="bx bx-sun icon icon-sun"></i>
+                <i class="bx bx-moon icon icon-moon"></i>
+            </div>
+        
+            <!-- <div class="login-box">
+                <a href="#" class="login">Войти</a>
+            </div> -->
+            
+        </div>
+        
+    </div>
+    
+    <script src="./../../js/darkmode.js"></script>
+    
+    <div class="wrapper">
+        
+        <div class="popup">
+            <div class="close"><i class="bx bx-x"></i></div>
+            
+            <h2 class="popup-title">Выберите список</h2>
+            
+            <div class="popup-links">
+              <a class="popup-link" href="./demonlist.html">Демонлист</a>
+              <!-- <a class="popup-link" href="./challengelist.html">Челлендж лист</a>
+              <a class="popup-link" href="./impossiblelist.html">Импоссибл лист</a> -->
+              <a class="popup-link" href="./platformerlist.html">Платформер лист</a>
+          </div>
+        </div>
+        
+    </div>
+    
+    <div class="top">
+  
+  <div class="search-box">
+    
+    <div title="Найти уровень" class="input-box">
+      <input type="text" name="search" id="search" class="search" placeholder="Поиск" required />    
+    </div>
+    
+  </div>
+  
+  <div class="list">
+    <ol class="list-gap">
+      <p class="list-unknown">Ничего не найдено :(</p>
+      
+      <!-- ========== TOP 1 ========== -->
+      
+      <div class="list-card">
+        <img class="list-card__preview" src="./../../assets/platformerlist/depth-img.jpg" alt="depth">
+        <div class="list-card__text">
+          <li><a href="./lvlPage/platformerlist/depth.html" class="list-card__name suffering">depth</a></li>
+          <p class="list-card__author">kwezy</p>
+        </div>
+      </div>
+            
+      <!-- ========== TOP 2 ========== -->
+     
+      <div class="list-card">
+        <img class="list-card__preview" src="./../../assets/platformerlist/glowing_rooms-img.jpg" alt="Glowing Rooms">
+        <div class="list-card__text">
+          <li><a href="./lvlPage/platformerlist/glowing_rooms.html" class="list-card__name kuzy">Glowing Rooms</a></li>
+          <p class="list-card__author">kmr</p>
+        </div>
+      </div>
+            
+      <!-- ========== TOP 3 ========== -->
+      
+      <div class="list-card">
+        <img class="list-card__preview" src="./../../assets/platformerlist/stay-img.jpg" alt="STAY">
+        <div class="list-card__text">
+          <li><a href="./lvlPage/platformerlist/stay.html" class="list-card__name silver_cyclone">STAY</a></li>
+          <p class="list-card__author">mexwang</p>
+        </div>
+      </div>
+            
+      <!-- ========== TOP 4 ========== -->
+      
+      <div class="list-card">
+        <img class="list-card__preview" src="./../../assets/platformerlist/just_dance-img.jpg" alt="Just Dance">
+        <div class="list-card__text">
+          <li><a href="./lvlPage/platformerlist/just_dance.html" class="list-card__name surazieb">Just Dance</a></li>
+          <p class="list-card__author">MrYer</p>
+        </div>
+      </div>
+            
+      <!-- ========== TOP 5 ========== -->
+      
+      <div class="list-card">
+        <img class="list-card__preview" src="./../../assets/platformerlist/the_tower_xxiv-img.jpg" alt="The tower XXIV">
+        <div class="list-card__text">
+          <li><a href="./lvlPage/platformerlist/the_tower_xxiv.html" class="list-card__name elevatia">The tower XXIV</a></li>
+          <p class="list-card__author">MrYer</p>
+        </div>
+      </div>
+      
+    </ol>
+  </div>
+  
+  </div>
+  
+  <footer class="footer">
+    <div class="footer-text">
+      <p>&copy; 2024 <span>GoW GDPS</span></p>
+    </div>
+  </footer>
+
+<script src="./../../js/index.js"></script>
+<script src="./../../js/search.js"></script>
+<script src="./../../js/wrapper.js"></script>
+    
+</body>
+</html>
