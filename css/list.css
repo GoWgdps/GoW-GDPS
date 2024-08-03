@@ -1,8 +1,17 @@
 body {
   display: flex;
   flex-direction: column;
-  transition: .3s;
-  background: var(--bg-color);
+  background: url(./../assets/bg-white.png) no-repeat fixed;
+  background-size: 100%;
+  transition: color .3s, background .3s;
+}
+
+body.dark {
+  display: flex;
+  flex-direction: column;
+  background: url(./../assets/bg-black.png) no-repeat fixed;
+  background-size: 100%;
+  transition: color .3s, background .3s;
 }
 
 .bg-wave {

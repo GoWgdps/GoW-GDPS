@@ -1,5 +1,13 @@
 body {
-  transition: .3s;
+  background: url(./../assets/bg-white.png) no-repeat fixed;
+  background-size: 100%;
+  transition: color .3s, background .3s;
+}
+
+body.dark {
+  background: url(./../assets/bg-black.png) no-repeat fixed;
+  background-size: 100%;
+  transition: color .3s, background .3s;
 }
 
 .bg-wave {
@@ -426,13 +434,13 @@ td.link {
 
 /* Breakpoints */
 
-@media (max-width: 991px) {
+@media (max-width: 1240px) {
   .container {
     padding: 15rem 15%;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 870px) {
   .container {
     padding: 15rem 10%;
     gap: 2.5rem;
@@ -508,14 +516,7 @@ td.link {
   }
 }
 
-@media (max-width: 524px) {
-  .lvl-info__percentage,
-  .lvl-info__percentage span {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .container {
     padding: 15rem 4%;
   }
@@ -548,6 +549,20 @@ td.link {
 
   .box p {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .lvl-info__box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 524px) {
+  .lvl-info__percentage,
+  .lvl-info__percentage span {
+    font-size: 1.2rem;
   }
 }
 
@@ -661,7 +676,17 @@ td.link {
 
   .lvl-info__box1,
   .lvl-info__box2 {
-    display: flex;
     gap: .7rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .lvl-info__box {
+    gap: .4rem;
+  }
+
+  .lvl-info__box1,
+  .lvl-info__box2 {
+    gap: .4rem;
   }
 }

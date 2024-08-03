@@ -1,5 +1,12 @@
 body {
-    background: var(--bg-color);
+    background: url(./../assets/bg-white.png) no-repeat fixed;
+    background-size: 100%;
+    transition: color .3s, background .3s;
+}
+
+body.dark {
+    background: url(./../assets/bg-black.png) no-repeat fixed;
+    background-size: 100%;
     transition: color .3s, background .3s;
 }
 
